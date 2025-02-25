@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JLCHENA Letters</title>
+    <style>
+        body {
+            font-family: 'EB Garamond', serif;
+            background-color: #f5f0e1;
+            color: #4a3f35;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fffdf5;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            border: 1px solid #d8c3a5;
+        }
+        h1, h2 {
+            font-family: 'Merriweather', serif;
+            text-align: center;
+            color: #3e2723;
+        }
+        p {
+            font-size: 18px;
+        }
+        .nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #5e4932;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .letter {
+            padding: 15px;
+            background: #faf3e0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .letter p:first-letter {
+            font-size: 28px;
+            font-weight: bold;
+            color: #5e4932;
+        }
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 20px;
+            color: #5e4932;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>JLCHENA Letters</h1>
+        <div class="nav">
+            <a href="#">首頁</a>
+            <a href="#">所有信件</a>
+            <a href="#">關於</a>
+        </div>
+        <div class="letter">
+            <h2>致最深愛的你</h2>
+            <p>歲月如風，輕輕拂過我們的記憶，我仍記得那年秋日微涼的午後，我們並肩走過滿是桂花香的小巷......</p>
+        </div>
+        <div class="footer">© 2025 JLCHENA Letters - 懷舊與愛的記錄</div>
+    </div>
+</body>
+</html>
