@@ -144,6 +144,6 @@ date: 2025-03-03 21:00
 
 
 ---
-<img src="/assets/images/IMG_691.jpg" alt="過三豐路的風景" width="600">
+<img src="/assets/images/IMG_6961.jpg" alt="過三豐路的風景" width="600">
 
 
