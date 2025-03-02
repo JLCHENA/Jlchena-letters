@@ -536,4 +536,6 @@ date: 2025-01-24 23:15
 
 ---
 
-![過三豐路的風景](/assets/images/san-feng-lu.jpg)
+---
+
+<img src="/assets/images/san-feng-lu.jpg" alt="過三豐路的風景" width="600">
