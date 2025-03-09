@@ -1,8 +1,8 @@
 ---
 layout: default
 title: 臨別
-date: 2024-08-06-19:58
 permalink: /letters/lin-bie/
+date: 2024-08-06-19:58
 ---
 
 上禮拜五請了一天假  
