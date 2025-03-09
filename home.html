@@ -1,7 +1,21 @@
+
 ---
 layout: default
 title: JLCHENA Letters
 ---
+
+<main>
+    <div id="mainContent">載入中...</div>
+</main>
+
+<script>
+    fetch("index.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("mainContent").innerHTML = data;
+        })
+        .catch(error => console.log("無法載入內容", error));
+</script>
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
