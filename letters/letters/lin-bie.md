@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 臨別
+date: 2024-08-06-19:58
 permalink: /letters/lin-bie/
 ---
 
