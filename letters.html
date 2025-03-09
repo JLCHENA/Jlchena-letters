@@ -1,11 +1,24 @@
 ---
 layout: default
-title: 所有信件
+title: 我的信件
 ---
 
-<h1>所有信件</h1>
-<ul>
-  {% for letter in site.letters %}
-    <li><a href="{{ letter.url }}">{{ letter.title }}</a>（{{ letter.date | date: "%Y-%m-%d" }}）</li>
-  {% endfor %}
-</ul>
+<main>
+    <div class="container">
+        <h1>📜 我的信件</h1>
+        <ul>
+            {% for letter in site.pages %}
+                {% if letter.path contains 'letters/' and letter.extname == '.md' %}
+                    <li><a href="{{ letter.url }}">{{ letter.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</main>
+
+<script>
+    // 確保使用者已登入
+    if (localStorage.getItem("authenticated") !== "true") {
+        window.location.href = "login.html"; // 未登入則返回登入頁
+    }
+</script>
