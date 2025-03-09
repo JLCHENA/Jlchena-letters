@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 夢の中の犬
-date: 2024-11-09-21:00
+date: 2024-11-09
 
 ---
 
