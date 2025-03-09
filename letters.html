@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: 我的信件
@@ -8,7 +9,7 @@ title: 我的信件
         <h1>📜 我的信件</h1>
         <ul>
             {% for letter in site.pages %}
-                {% if letter.path contains 'letters/' and letter.extname == '.md' %}
+                {% if letter.path contains 'letters/' and letter.path != 'letters.html' %}
                     <li><a href="{{ letter.url }}">{{ letter.title }}</a></li>
                 {% endif %}
             {% endfor %}
