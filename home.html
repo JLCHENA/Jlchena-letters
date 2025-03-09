@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JLCHENA Letters</title>
+    <script>
+        // 檢查是否已經登入
+        if (localStorage.getItem("authenticated") !== "true") {
+            window.location.href = "login.html"; // 未登入則返回登入頁
+        }
+    </script>
+</head>
+<body>
+    <h1>歡迎來到 JLCHENA Letters</h1>
+    <p>這裡是你的私人信件集。</p>
+    <button onclick="logout()">登出</button>
+
+    <script>
+        function logout() {
+            localStorage.removeItem("authenticated"); // 移除登入狀態
+            window.location.href = "login.html"; // 返回登入頁
+        }
+    </script>
+</body>
+</html>
