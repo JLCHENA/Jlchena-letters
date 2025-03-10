@@ -2,7 +2,7 @@
 layout: default
 title: 遶境
 permalink: /letters/pilgrimage/
-date: 2023-05-08 00:00:00
+date: 2023-05-08 00:00:00 +0800
 markdown: kramdown
 ---
 
