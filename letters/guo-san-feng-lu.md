@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 過三豐路
-date: 2025-01-24 23:15
+date: 2025-01-24
 permalink: /letters/guo-san-feng-lu/
 ---
 1⽉24⽇23:15
