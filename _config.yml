@@ -4,3 +4,4 @@ theme: minima  # 這可以改為其他 Jekyll 佈景主題
 collections:
   letters:
     output: true
+    permalink: /letters/:title/
