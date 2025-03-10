@@ -2,7 +2,7 @@
 layout: default
 title: 臨別
 permalink: /letters/lin-bie/
-date: 2024-08-06 19:58:00
+date: 2024-08-06
 markdown: kramdown
 ---
 
