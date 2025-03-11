@@ -2,7 +2,7 @@
 layout: default
 title: 善願必佑
 permalink: /letters/shan-yuan-bi-you/
-date: 2024-03-15 00:00:00
+date: 2024-03-15
 markdown: kramdown
 ---
 
