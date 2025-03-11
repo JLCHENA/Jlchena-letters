@@ -2,7 +2,7 @@
 layout: default
 title: 遶境
 permalink: /letters/pilgrimage-and-mazu/
-date: 2023-05-08 00:00:00
+date: 2023-05-08
 markdown: kramdown
 ---
 
