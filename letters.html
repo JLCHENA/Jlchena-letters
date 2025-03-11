@@ -9,16 +9,9 @@ title: 我的信件
 
         <!-- Debug 訊息 -->
         <h2>信件 Debug</h2>
-        <p>信件總數：{{ site.letters | size }}</p>
+        <p>信件總數 (site.letters)：{{ site.letters | size }}</p>
 
-        <h3>所有信件內容：</h3>
-        <ul>
-          {% for letter in site.letters %}
-            <li>{{ letter.title }} - {{ letter.date }} - {{ letter.path }}</li>
-          {% endfor %}
-        </ul>
-
-        <h3>檢查所有頁面：</h3>
+        <h3>檢查所有頁面 (site.pages)：</h3>
         <ul>
           {% for page in site.pages %}
             <li>{{ page.title }} - {{ page.date }} - {{ page.path }}</li>
