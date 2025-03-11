@@ -1,8 +1,14 @@
 title: JLCHENA Letters
 description: 記錄時光的書信
-theme: minima  # 這可以改為其他 Jekyll 佈景主題
+theme: minima
 collections:
   letters:
     output: true
     permalink: /letters/:title/
-    future: true
+future: true
+defaults:
+  - scope:
+      path: ""
+      type: letters
+    values:
+      layout: default
