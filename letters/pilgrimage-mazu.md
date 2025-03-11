@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 遶境
-permalink: /letters/pilgrimage-and-mazu/
+permalink: /letters/pilgrimage-mazu/
 date: 2023-05-08
 markdown: kramdown
 ---
