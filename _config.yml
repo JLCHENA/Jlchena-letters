@@ -5,10 +5,11 @@ collections:
   letters:
     output: true
     permalink: /letters/:title/
+    path: letters   # 這行讓 Jekyll 解析 `letters/` 而不是 `_letters/`
 future: true
 defaults:
   - scope:
-      path: ""
+      path: "letters"  # 這行確保 `letters/` 內的檔案正確解析
       type: letters
     values:
       layout: default
