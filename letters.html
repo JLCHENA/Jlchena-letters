@@ -6,28 +6,13 @@ title: 我的信件
 <main>
     <div class="container">
         <h1>📜 我的信件</h1>
-
-        <!-- Debug 訊息 -->
-        <h2>信件 Debug</h2>
-        <p>信件總數 (site.letters)：{{ site.letters | size }}</p>
-
-        <h3>檢查所有頁面 (site.pages)：</h3>
         <ul>
-          {% for page in site.pages %}
-            <li>{{ page.title }} - {{ page.date }} - {{ page.path }}</li>
-          {% endfor %}
-        </ul>
-
-        <!-- 原本的信件列表 -->
-        <ul>
-            {% assign sorted_letters = site.letters | sort: "date" | reverse %}
-            {% if sorted_letters.size > 0 %}
-                {% for letter in sorted_letters %}
-                    <li><a href="{{ letter.url }}">{{ letter.title }}</a> ({{ letter.date | date: "%Y-%m-%d" }})</li>
-                {% endfor %}
+            {% assign sorted_letters = site.letters | where: "date" | sort: "date" | reverse %}
+            {% for letter in sorted_letters %}
+                <li><a href="{{ letter.url }}">{{ letter.title }}</a> ({{ letter.date | date: "%Y-%m-%d" }})</li>
             {% else %}
                 <li>目前沒有信件。</li>
-            {% endif %}
+            {% endfor %}
         </ul>
     </div>
 </main>
@@ -41,3 +26,5 @@ title: 我的信件
         }
     });
 </script>
+
+
