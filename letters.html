@@ -7,7 +7,7 @@ title: 我的信件
     <div class="container">
         <h1>📜 我的信件</h1>
         <ul>
-            {% assign sorted_letters = site.letters | sort: "date", "last", "numeric" | reverse %}
+            {% assign sorted_letters = site.letters | sort: "date" | reverse %}
             {% for letter in sorted_letters %}
                 <li><a href="{{ letter.url }}">{{ letter.title }}</a> ({{ letter.date | date: "%Y-%m-%d" }})</li>
             {% else %}
@@ -26,5 +26,3 @@ title: 我的信件
         }
     });
 </script>
-
-
