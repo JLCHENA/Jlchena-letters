@@ -6,14 +6,18 @@ collections:
   letters:
     output: true
     permalink: /letters/:title/
-    path: letters  # 🔹 加入這行，確保 Jekyll 正確讀取 letters/ 目錄
-    future: true
+    future: true  # 確保未來日期的信件也會顯示
 
-future: true  # 確保未來日期的信件也會顯示
+future: true  # 允許顯示未來的信件
+show_drafts: true  # 允許顯示草稿（可選）
 
 defaults:
   - scope:
       path: "letters"
       type: letters
     values:
-      layout: default
+      layout: letter
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
